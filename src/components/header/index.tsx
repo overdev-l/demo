@@ -110,12 +110,6 @@ export default function Header() {
           <Button variant="ghost" className='w-fit' size="icon" onClick={setCurrentLoaded}>
             loaded
           </Button>
-          <Button variant="ghost" size="icon" onClick={undo}>
-            撤销
-          </Button>
-          <Button variant="ghost" size="icon" onClick={redo}>
-            重做
-          </Button>
         </div>
         <div className="flex-1" />
       </div>
